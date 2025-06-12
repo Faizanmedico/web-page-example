@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Quiz Maker - Create Engaging Assessments</title>
+    <meta name="description" content="Build professional quizzes for corporate training, education, and more with our intuitive online assessment tool.">
+    <meta property="og:title" content="Professional Quiz Maker - Your Ultimate Assessment Tool">
+    <meta property="og:description" content="Create, customize, and analyze engaging quizzes for any purpose.">
+    <meta property="og:image" content="https://www.yourquizapp.com/images/og-image.jpg"> <meta property="og:url" content="https://www.yourquizapp.com"> <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Create Engaging Quizzes for Any Purpose</h1>
+            <p class="tagline">Our professional quiz maker simplifies online assessments for training, education, and lead generation.</p>
+            <a href="#signup" class="cta-button">Get Started Free</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h3><i class="icon-easy-to-use"></i> Easy Drag & Drop Builder</h3>
+                        <p>Create quizzes in minutes with our intuitive interface. No coding required!</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3><i class="icon-analytics"></i> Powerful Analytics</h3>
+                        <p>Track performance, identify knowledge gaps, and gain valuable insights.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3><i class="icon-customization"></i> Customizable Templates</h3>
+                        <p>Match your brand with fully customizable themes and question types.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2>What Our Users Say</h2>
+                <div class="testimonial-carousel">
+                    <div class="testimonial-item">
+                        <p>"This quiz maker transformed our employee training. Highly recommend!"</p>
+                        <p class="author">- Jane Doe, HR Manager at Corp Solutions</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"Analytics are incredibly insightful. We finally understand our students' progress."</p>
+                        <p class="author">- John Smith, Educator at LearnWell Academy</p>
+                    </div>
+                </div>
+                <button class="carousel-nav prev">Prev</button>
+                <button class="carousel-nav next">Next</button>
+            </div>
+        </section>
+
+        <section id="quiz-demo" class="quiz-demo-section">
+            <div class="container">
+                <h2>Try Our Mini Quiz Demo!</h2>
+                <p>Experience the ease of creating engaging quizzes yourself.</p>
+                <div class="quiz-container">
+                    <div id="quiz-questions">
+                        </div>
+                    <button id="submit-quiz" style="display: none;">Submit Quiz</button>
+                    <div id="quiz-results" style="display: none;"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="signup" class="signup-section">
+            <div class="container">
+                <h2>Ready to Get Started?</h2>
+                <form id="signup-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <div class="error-message" id="name-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error-message" id="email-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" minlength="8" required>
+                        <div class="error-message" id="password-error"></div>
+                    </div>
+                    <button type="submit" class="cta-button">Sign Up Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Quiz App. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YOUR_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YOUR_MEASUREMENT_ID'); // Replace with your GA4 Measurement ID
+    </script>
+</body>
+</html>
